@@ -1,0 +1,28 @@
+$primary-text-color: #fff;
+
+.todo-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.form-container {
+    margin-top: 5em;
+    align-self: center;
+}
+
+.card {
+    margin: 10px;
+    color: $primary-text-color;
+}
+
+.card-header span {
+    color: $primary-text-color;
+}
+
+.card-body {
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+    height: 10vh;
+}
